@@ -1,1 +1,28 @@
+** Multiple Ifs - Commands
+You can write as many if statements as you need to check for different conditions that are unrelated to each other. Compare the code blocks below:
+
+# If/elif/else
+if <condition 1 is true>
+    <do A>
+elif <condition 2 is true>
+    <do B>
+else
+    <do C>
+# Nested if statements
+if <condition 1 is true>
+    <do A>
+    if <condition 2 is true>
+        <do B>
+        if <condition 3 is true>
+            <do C>
+# Multiple if statements
+if <condition 1 is true>
+    <do A>
+if <condition 2 is true>
+    <do B>
+if <condition 3 is true>
+    <do C>
+In the if/elif/else block, only one of A, B, or C can happen, because if/elif/else are mutually exclusive. The first condition has to fail to go into the elif and the elif (or multiple elif) have to fail to go into the else. Condition 2 is only checked if
+
+
 
