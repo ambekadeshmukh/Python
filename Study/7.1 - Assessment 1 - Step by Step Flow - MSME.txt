@@ -1,0 +1,106 @@
+###################Example Code#######################
+a = 1
+while a < 20:
+    print(a)
+    a = a * 2
+else: # Optional
+    print('While loop execution is stopped as the condition became false')
+*Perform step by step flow for the above code*
+
+An example to the step by step flow of the code and the output is given below, the same is expected as the result from you. 
+
+#################Example Step by step flow####################
+--> a is initilized to 1
+--> in while loop we are checking a is smaller than 20 which returns true, so 1 will be printed.
+--> now value of a become 1*2 =2
+--> now 2 is again less than 20 , it returns true , so 2 will be printed.
+--> now value of a become  2*2 =4
+--> 4 is again less than 20 , so while loop returns true, so 4 will be printed.
+--> a become 4*2 =8
+--> 8 < 20 ==> true ==> 8 will print
+--> a is now 16
+--> in while loop 16 < 20 --> returns true
+-->16 will going to print 
+--> Now a =16*2 =32
+--> 32 is not less than 20 --> returns false
+go to else ==> statement print
+
+*Example output*
+1
+2
+4
+8
+16
+While loop execution is stopped as the condition became false'
+
+#####################################################################
+
+########Assessment - Looping - Perform the step by step flow for the below codes########
+
+1. What will be the output of the following Python code? Perform the step by step flow for the below code
+x = ['ab', 'cd']
+for i in x:
+    i.upper()
+print(x)
+a) [‘ab’, ‘cd’]
+b) [‘AB’, ‘CD’]
+c) [None, None]
+d) none of the mentioned
+
+2. What will be the output of the following Python code? Perform the step by step flow for the below code
+i = 1
+while True:
+    if i%3 == 0:
+        break
+    print(i)
+    i + = 1
+a) 1 2
+b) 1 2 3
+c) error
+d) none of the mentioned
+
+3. What will be the output of the following Python code? Perform the step by step flow for the below code
+i = 1
+while True:
+    if i%2 == 0:
+        break
+    print(i)
+    i += 2
+a) 1
+b) 1 2
+c) 1 2 3 4 5 6 …
+d) 1 3 5 7 9 11 …
+
+4. What will be the output of the following Python code? Perform the step by step flow for the below code
+i = 2
+while True:
+    if i%3 == 0:
+        break
+    print(i)
+    i += 2
+a) 2 4 6 8 10 …
+b) 2 4
+c) 2 3
+d) error
+
+5. What will be the output of the following Python code? Perform the step by step flow for the below code
+i = 1
+while False:
+    if i%2 == 0:
+        break
+    print(i)
+    i += 2
+a) 1
+b) 1 3 5 7 …
+c) 1 2 3 4 …
+d) none of the mentioned
+
+6. What will be the output of the following Python code? Perform the step by step flow for the below code
+True = False
+while True:
+    print(True)
+    break
+a) True
+b) False
+c) None
+d) none of the mentioned
